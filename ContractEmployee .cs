@@ -5,8 +5,13 @@ using System.Threading.Tasks;
 
 namespace 
 {
+    // Princípio da Substituição de Liskov (Liskov Substitution Principle)
     public class ContractEmployee 
     {
-        
+        // Princípio da Responsabilidade Única (Single Responsibility Principle)
+         public override void CalculateSalary()
+        {
+            // Cálculo específico para funcionários contratados
+        }
     }
 }
